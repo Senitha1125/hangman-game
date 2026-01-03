@@ -21,3 +21,17 @@ A web-based Hangman game built using **Python (Flask)** with a clean UI and resp
 ```bash
 pip install flask
 python app.py
+
+## 📸 Screenshots
+
+### Start Page
+![Start Page](screenshots/start.png)
+
+### Game Page
+![Game Page](screenshots/main.png)
+
+### Win Page
+![Win Page](screenshots/win.png)
+
+### Lose Page
+![Lose Page](screenshots/lose.png)
