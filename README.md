@@ -25,13 +25,17 @@ python app.py
 ## 📸 Screenshots
 
 ### Start Page
-![Start Page](screenshots/start.png)
+<img src="screenshots/start.png" width="600" />
+
 
 ### Game Page
-![Game Page](screenshots/main.png)
+<img src="screenshots/main.png" width="600" />
+
 
 ### Win Page
-![Win Page](screenshots/win.png)
+<img src="screenshots/win.png" width="600" />
+
 
 ### Lose Page
-![Lose Page](screenshots/lose.png)
+<img src="screenshots/lose.png" width="600" />
+
