@@ -1,5 +1,22 @@
 # Hangman Game 🎮
 
+## 📸 Screenshots
+
+### Start Page
+<img src="screenshots/start.png" width="600" />
+
+
+### Game Page
+<img src="screenshots/main.png" width="600" />
+
+
+### Win Page
+<img src="screenshots/win.png" width="600" />
+
+
+### Lose Page
+<img src="screenshots/lose.png" width="600" />
+
 A web-based Hangman game built using **Python (Flask)** with a clean UI and responsive design.
 
 ## 🚀 Features
@@ -22,20 +39,5 @@ A web-based Hangman game built using **Python (Flask)** with a clean UI and resp
 pip install flask
 python app.py
 
-## 📸 Screenshots
 
-### Start Page
-<img src="screenshots/start.png" width="600" />
-
-
-### Game Page
-<img src="screenshots/main.png" width="600" />
-
-
-### Win Page
-<img src="screenshots/win.png" width="600" />
-
-
-### Lose Page
-<img src="screenshots/lose.png" width="600" />
 
