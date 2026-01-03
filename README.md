@@ -28,7 +28,7 @@ python app.py
 ![Start Page](screenshots/start.png)
 
 ###  Game Page
-![Game Page](screenshots/game.png)
+![Game Page](screenshots/main.png)
 
 ###  Win Page
 ![Win Page](screenshots/win.png)
