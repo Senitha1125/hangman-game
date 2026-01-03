@@ -1,0 +1,185 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    width: 380px;
+    max-width: 90vw;
+    backdrop-filter: blur(10px);
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+#word {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    margin: 20px 0;
+}
+
+#lives {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(38px, 1fr));
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.keyboard button {
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+}
+
+.keyboard button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+}
+
+.clue-text {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.hangman {
+    position: relative;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Gallows */
+.gallows {
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    background: white;
+    top: 10px;
+    left: 50px;
+}
+
+.gallows::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 180px;
+    background: white;
+    left: 0;
+    top: 0;
+}
+
+/* Body parts */
+.part {
+    display: none;
+    position: absolute;
+    background: white;
+}
+
+/* Head */
+.head {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 30px;
+    left: 95px;
+}
+
+/* Body */
+.body {
+    width: 6px;
+    height: 50px;
+    top: 60px;
+    left: 107px;
+}
+
+/* Arms */
+.left-arm {
+    width: 40px;
+    height: 4px;
+    top: 80px;
+    left: 67px;
+}
+
+.right-arm {
+    width: 40px;
+    height: 4px;
+    top: 80px;
+    left: 107px;
+}
+
+/* Legs */
+.left-leg {
+    width: 40px;
+    height: 4px;
+    top: 120px;
+    left: 67px;
+}
+
+.right-leg {
+    width: 40px;
+    height: 4px;
+    top: 120px;
+    left: 107px;
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    #word {
+        font-size: 1.6rem;
+        letter-spacing: 6px;
+    }
+
+    .hangman {
+        transform: scale(0.85);
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+button, .keyboard button {
+    -webkit-tap-highlight-color: transparent;
+}

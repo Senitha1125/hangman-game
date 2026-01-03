@@ -1,0 +1,41 @@
+python|A popular programming language
+flask|A lightweight Python web framework
+hangman|A classic word guessing game
+coding|What programmers do for a living
+frontend|The part of a website users see
+backend|Server-side logic of an application
+database|Stores application data
+algorithm|Step-by-step problem solving method
+variable|Used to store values in programming
+function|Reusable block of code
+array|A collection of elements
+loop|Used to repeat actions in code
+compiler|Converts code into machine language
+debugging|Finding and fixing errors in code
+internet|Global network connecting computers
+browser|Used to access websites
+server|Provides data to clients
+client|Requests data from a server
+javascript|Language used to make websites interactive
+html|Structure of a web page
+css|Used to style web pages
+responsive|Adapts to different screen sizes
+framework|A pre-built structure for development
+api|Allows two applications to communicate
+opensource|Software with publicly available code
+github|Platform to host and share code
+terminal|Command-line interface
+linux|An open-source operating system
+windows|Popular desktop operating system
+software|Programs that run on a computer
+hardware|Physical parts of a computer
+network|Connected group of systems
+encryption|Securing data using codes
+password|Secret key to access accounts
+firewall|Protects systems from threats
+cloud|Stores data online
+storage|Place where data is saved
+memory|Temporary data storage
+processor|The brain of the computer
+keyboard|Input device for typing
+monitor|Displays output visually
